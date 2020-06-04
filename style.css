@@ -1,0 +1,130 @@
+html {
+  font-size: 10px;
+  color: white;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #162428;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  color: white;
+}
+
+.voiceemoji {
+  padding: 2rem;
+  width: 60rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  position: relative;
+  /* background: #b6c9cf; */
+  background: transparent;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid #edf1f3;
+}
+
+h1 {
+  width: calc(100% + 4rem);
+  margin: -2rem 0 2rem -2rem;
+  padding: 0.5rem;
+  background: #487786;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+  font-family: 'Inconsolata';
+  color: #edf1f3;
+}
+
+h3 {
+  width: calc(100% + 4rem);
+  text-align: center;
+  font-size: 2rem;
+  /* font-weight: 100; */
+  font-family: 'Inconsolata';
+  color: #edf1f3;
+}
+
+.voiceemoji input,
+.voiceemoji button,
+.voiceemoji select,
+.voiceemoji textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  /* border: 0; */
+  background: transparent;
+  outline: 0;
+  color: white;
+}
+
+.voiceemoji select {
+  border: 1px solid #edf1f3;
+  border-radius: 1rem;
+}
+
+textarea {
+  height: 20rem;
+  font-family: 'Inconsolata';
+  border-radius: 1rem;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #487786;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: goldenrod;
+  margin-top: -4px;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range']:focus::-webkit-slider-runnable-track {
+  background: #487786;
+}
+
+.voiceemoji button {
+  background: #487786;
+  border: 0;
+  width: 49%;
+  float: left;
+  font-family: 'Inconsolata';
+  margin-bottom: 0;
+  font-size: 2rem;
+  /* border-bottom: 5px solid #487786; */
+  cursor: pointer;
+  position: relative;
+  color: #edf1f3;
+  border-radius: 1rem;
+}
+
+.voiceemoji button:nth-of-type(1) {
+  margin-right: 2%;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "emoji-translator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jules Kulcsar",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "emojionearea": "^3.4.2"
+  }
+}
